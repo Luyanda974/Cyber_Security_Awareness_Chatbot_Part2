@@ -12,31 +12,35 @@ namespace Cyber_Security_Awareness_Chatbot_Part2
         }
         public void answers(ArrayList add_answers)
         {
+            //for greeting
             add_answers.Add("greeting, i'm doing great, thank you for asking.how are you doing today?");
             add_answers.Add("greeting i'm well today, thanks for asking! how can i help you today?");
             add_answers.Add("greeting ,i'm okay! hope you are also doing well today, how can i assist you?");
 
+            //for purpose
             add_answers.Add("my purpose is to help you stay safe online");
             add_answers.Add("my purpose is to help users understand the importance of online safety and digital protection ");
             add_answers.Add("my purpose is to help you  ");
 
+            // response for cybersecurity
             add_answers.Add("Cybersecurity is about protecting  sysyems and networks from digital attacks");
             add_answers.Add("Cybersecurity involves protecting devices and online accounts from attacks");
             add_answers.Add("Cybersecurity focuses on securing digital information and systems");
-
+            // response for phishing
             add_answers.Add("phishing is a scam where attackers pose as reliable sources to be able to gain access to information or systems");
             add_answers.Add("phishsing involves using fake identity,websites or messages to trick users into giving in sensitive information making it easier for attackers to steal ");
             add_answers.Add("phishing attackers decieve users and trick them into thinking they are legitimate sources");
-
+             //response for password
             add_answers.Add("A password is used to protect and secure users data, devices, accounts, etc.");
             add_answers.Add("When creating a password ensure that it is long,strong and not at all easy to guess");
             add_answers.Add("When creating a password it is better to avoid using personal details so that no one is able to guess your password and maintain security");
 
-
+            //response for firewall
             add_answers.Add("firewall a firewall controls network traffic based on security rules.");
             add_answers.Add("firewall helps to limit and block unwanted access.");
             add_answers.Add("firewall acts as a protective barrier between trusted and untrusted networks or users.");
 
+            //response for malicious software
             add_answers.Add("malicious software is designed by attackers to gain unauthorised access.");
             add_answers.Add("malicious software is used to damage systems.");
             add_answers.Add("malicious software can be used to steal sensitive information so one needs to be cautios when online.");
