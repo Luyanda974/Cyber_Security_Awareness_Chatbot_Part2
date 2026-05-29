@@ -33,7 +33,7 @@ namespace Cyber_Security_Awareness_Chatbot_Part2
                 //write the name in a text file
                 File.AppendAllText(filename, name + "\n");
                 //then welcome the user
-                error_method("Lumina", "Hey " + name + "  welcome to AI cybersecurity", chats);
+                error_method("Lumina", "Hey " + name + "  welcome to Lumina cybersecurity", chats);
 
             }//end of if
             else
