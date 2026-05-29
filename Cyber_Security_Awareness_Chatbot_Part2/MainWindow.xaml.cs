@@ -17,12 +17,12 @@ using System.Windows.Shapes;
 using System.IO;
 
 namespace Cyber_Security_Awareness_Chatbot_Part2
-{
+{//start of namespace
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
-    {
+    {//start of class
         //creating an instance for the class Array
         ArrayList reply = new ArrayList();
         ArrayList ignore = new ArrayList();
@@ -35,7 +35,7 @@ namespace Cyber_Security_Awareness_Chatbot_Part2
         string pre_question = string.Empty;
         int counting = 0;
         public MainWindow()
-        {
+        {//start of main window
             InitializeComponent();
             chats_delegate.chatbot_reply = error_method;
 
@@ -298,7 +298,7 @@ namespace Cyber_Security_Awareness_Chatbot_Part2
                 // when nothing is found
                 string[] fallbackMessages = {
             "I'm so sorry but i could not understand that. Could you please rephrase your question?",
-            "I didn't really get that. Try asking about cyber security topics.",
+            "I didn't really get that. Try asking about cybersecurity topics.",
             "I'm not really sure how to respond to that. Can you please ask something else?",
             "I couldn't find an answer for that. Please ask about cybersecurity terms.",
             "My apologies but i  don't have information on that topic yet."
