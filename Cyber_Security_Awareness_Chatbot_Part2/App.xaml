@@ -1,0 +1,9 @@
+﻿<Application x:Class="Cyber_Security_Awareness_Chatbot_Part2.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Cyber_Security_Awareness_Chatbot_Part2"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

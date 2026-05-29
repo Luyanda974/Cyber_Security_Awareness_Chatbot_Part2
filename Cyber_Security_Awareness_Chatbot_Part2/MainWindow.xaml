@@ -1,0 +1,132 @@
+﻿<Window x:Class="Cyber_Security_Awareness_Chatbot_Part2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cyber_Security_Awareness_Chatbot_Part2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="Black">
+        <Grid 
+    x:Name="home_grid" 
+    Visibility="Visible"
+    >
+            <!-- To display the logo -->
+            <Image 
+        Source="/logo2.jpeg" 
+        Height="200"
+        Width="300"
+        Margin="0,0,0,200"
+           />
+            <!-- welcome message-->
+            <TextBlock
+        Text="Welcome to Lumina chatbot, please click the proceed button"
+        Height="20"
+        Width="500"
+        TextAlignment="Center"
+        Margin="0,30,0,0"
+        FontFamily="Arial Rounded MT Bold"
+        Foreground="AntiqueWhite"
+        />
+
+            <!-- button to continue-->
+            <Button 
+        Height="40"
+        Width="300"
+        Margin="0,200,0,0"
+        Content="Proceed"
+        Click="proceed"
+        Background="DarkGoldenrod"
+        />
+
+        </Grid>
+
+        <!--  Username grid-->
+        <Grid 
+    x:Name="username_grid"
+    Visibility="Hidden">
+
+            <!-- Logo -->
+            <Image 
+        Source="/logo2.jpeg" 
+        Height="200"
+        Width="300"
+        Margin="0,0,0,200"
+           />
+            <!-- Hint message-->
+            <TextBlock
+        Text="Enter username"
+        Height="20"
+        Width="270"
+        TextAlignment="Justify"
+        Margin="0,30,0,0"
+        FontFamily="Arial Rounded MT Bold"
+        />
+
+            <!-- Enter/Prompt username-->
+            <TextBox
+        Height="40"
+        Width="270"
+        TextAlignment="Center"
+        Margin="0,100,0,0"
+        FontFamily="Arial Rounded MT Bold"
+        x:Name="usernames_input"
+        />
+
+            <!-- error message-->
+            <TextBlock
+ Text="please enter your username to continue..."
+ Height="20"
+ Width="270"
+ TextAlignment="Justify"
+ Margin="0,180,0,0"
+ Foreground="DarkGoldenrod"
+ FontFamily="Arial Rounded MT Bold"
+ />
+
+            <!-- button to submit name-->
+            <Button 
+Height="40"
+Width="270"
+Margin="0,250,0,0"
+Content="submit"
+Click="submit_name"
+/>
+
+        </Grid>
+
+        <!-- 
+    CHAT GRID-->
+        <Grid x:Name="chat_grid"
+      Visibility="Hidden">
+
+            <!-- List view to show messages show messages-->
+            <ListView  
+        x:Name="chats" 
+        Height="300"
+        Margin="0,0,0,120"
+        />
+
+            <!-- TextBox to prompt questions-->
+            <TextBox
+        x:Name="question"
+        Height="50"
+        Width="480"
+        Margin="0,300,300,0"
+        KeyDown="Enter_Send"
+        />
+
+            <!-- button to submit -->
+            <Button
+        Height="50"
+        Width="280"
+        Margin="490,300,0,0"
+        Content="send "
+        Click="send"
+        Foreground="Black"
+        Background="DarkGoldenrod"
+        />
+
+        </Grid>
+    </Grid>
+</Window>
