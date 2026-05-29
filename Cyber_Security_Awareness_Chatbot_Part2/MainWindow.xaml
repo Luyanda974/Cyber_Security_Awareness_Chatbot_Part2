@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Cyber_Security_Awareness_Chatbot_Part2"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid Background="Black">
+    <Grid Background="Black"><!--start of parent grid-->
         <Grid 
     x:Name="home_grid" 
     Visibility="Visible"
@@ -128,5 +128,5 @@ Click="submit_name"
         />
 
         </Grid>
-    </Grid>
+    </Grid><!--end of parent grid-->
 </Window>
