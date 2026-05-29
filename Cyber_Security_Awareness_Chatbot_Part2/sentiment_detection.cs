@@ -48,7 +48,7 @@ namespace Cyber_Security_Awareness_Chatbot_Part2
             {
                 "Let me explain it differently so that you can understand it better.",
                 "I'll break it down step by step so it is easier to understand.",
-                "No worries, confusion is normal.I will help you nderstand better"
+                "No worries, confusion is normal.I will help you understand better"
             });
         }
 
