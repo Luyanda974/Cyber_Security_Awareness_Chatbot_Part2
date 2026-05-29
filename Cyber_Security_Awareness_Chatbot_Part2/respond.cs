@@ -32,18 +32,18 @@ namespace Cyber_Security_Awareness_Chatbot_Part2
             add_answers.Add("phishing attackers decieve users and trick them into thinking they are legitimate sources");
              //response for password
             add_answers.Add("A password is used to protect and secure users data, devices, accounts, etc.");
-            add_answers.Add("When creating a password ensure that it is long,strong and not at all easy to guess");
+            add_answers.Add("When creating a password make sure that it is long,strong and not at all easy to guess");
             add_answers.Add("When creating a password it is better to avoid using personal details so that no one is able to guess your password and maintain security");
 
             //response for firewall
-            add_answers.Add("firewall a firewall controls network traffic based on security rules.");
-            add_answers.Add("firewall helps to limit and block unwanted access.");
-            add_answers.Add("firewall acts as a protective barrier between trusted and untrusted networks or users.");
+            add_answers.Add("firewall controls network traffic based on security rules implemented.");
+            add_answers.Add("firewall help limit and block unwanted access.");
+            add_answers.Add("firewall acts as a protective sheild between trusted and untrusted networks or users.");
 
             //response for malicious software
             add_answers.Add("malicious software is designed by attackers to gain unauthorised access.");
             add_answers.Add("malicious software is used to damage systems.");
-            add_answers.Add("malicious software can be used to steal sensitive information so one needs to be cautios when online.");
+            add_answers.Add("malicious software can be used to steal sensitive information so one needs to be cautious when online.");
 
 
 
